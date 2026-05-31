@@ -1,0 +1,26 @@
+# Local virtualenv
+.venv/
+venv/
+
+# Environment / secret files
+.env
+*.env
+credentials.json
+*.key
+*.pem
+secrets/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS / IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Outputs
+resources/output.csv
