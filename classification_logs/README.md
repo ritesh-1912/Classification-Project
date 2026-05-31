@@ -16,9 +16,9 @@ This folder contains the primary application code for a small text log classific
 
 2. Install dependencies:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+  ```bash
+  pip install -r classification_logs/requirements.txt
+  ```
 
 3. Verify the environment and run a quick script (examples below).
 
@@ -31,6 +31,13 @@ This folder contains the primary application code for a small text log classific
 - `processor_llm.py`: LLM-based processing helper functions.
 - `requirements.txt`: Python dependencies for the project.
 - `.venv/`: Optional virtualenv directory (not committed usually).
+
+**Repository Top-level Structure**
+- `classification_logs/` — application code, local README, and folder-level `.gitignore`
+- `models/` — serialized model artifacts (e.g., `log_classifier.joblib`)
+- `resources/` — example inputs and outputs (`test.csv`, `output.csv`)
+- `training/` — training notebooks and datasets used for experiments
+
 
 **Usage**
 
@@ -73,3 +80,6 @@ This folder contains the primary application code for a small text log classific
 - Add a training pipeline that exports an updated model under `../models/` and include a small reproducible script in `../training/`.
 
 If you want the README expanded with examples, API signatures, or sample outputs, tell me what to include.
+
+**Contact / Attribution**
+If you need help or want changes to this README (more examples, CI instructions, or packaging notes), ask and I can extend it.
